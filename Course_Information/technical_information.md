@@ -23,7 +23,7 @@ System Architecture
    - NoSQL Databases: MongoDB (unstructured data like lab reports)
    - Document Storage: AWS S3 (for images and medical reports)
 
-4. Middleware Layer
+4. Middle Layer
 -------------------
    - Message Broker: RabbitMQ or Kafka
    - Real-time notifications for lab reports, prescription updates
@@ -42,15 +42,8 @@ Data Flow
 
 Security and Compliance
 =======================
-1. HIPAA Compliance:
-   - Patient data stored securely and handled in line with legal requirements
-   - Encryption protocols (SSL/TLS) for data transmission and storage
-
-2. Encryption:
+1. Encryption:
    - Data encrypted both in transit and at rest
    - Sensitive medical records protected from unauthorized access
 
-3. Role-Based Access Control:
-   - Patients have limited access (their own records)
-   - Healthcare providers have full access to their patients' records
 
