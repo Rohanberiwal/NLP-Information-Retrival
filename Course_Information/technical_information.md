@@ -1,4 +1,4 @@
-System Architecture
+Technical Model
 ====================
 1. Frontend Layer
 -----------------
